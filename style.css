@@ -33,7 +33,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 400px) { 
+/* @media only screen and (max-width: 400px) { 
 	h1 {
         font-size: 0.7rem;
     }
@@ -41,7 +41,7 @@ h1 {
     width: 20px;
     margin: 3%;
     }
-}
+} */
 
 
 
@@ -182,11 +182,12 @@ h3 {
 	}
 }
 
+/* 
 @media only screen and (max-width: 400px) { 
 	.acceuil_titre { 
 		font-size: 1.5em;
 	}
-}
+} */
 
 
 
@@ -256,7 +257,7 @@ color: #F6F6F6;
       }
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     ul {
         font-size: 1rem;
         line-height: 1rem;
@@ -265,7 +266,7 @@ color: #F6F6F6;
       .navlink:hover {
         font-size: 1.5rem;  
       }
-}
+} */
 
         /* PAGE AUTOPILOTE */
 
@@ -570,7 +571,7 @@ img {
     text-decoration: none;
     }
 
-@media only screen and (max-width: 400px) { 
+/* @media only screen and (max-width: 400px) { 
 	.icons { 
 		width: 5%;
 	}
@@ -581,7 +582,7 @@ img {
     .texteContact {
         font-size: 0.5rem;
     }
-}
+} */
 
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     .icons { 
