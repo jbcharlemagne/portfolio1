@@ -252,15 +252,6 @@ ul {
 color: #F6F6F6;
 }
 
-@media only screen and (max-width: 400px) { 
-	ul { 
-		font-size: 1em;
-        line-height: 1em;
-	}
-    .navlink:hover {
-        font-size: 1.5rem;  
-      }
-}
 
 @media only screen and (max-width : 980px) {
     ul { 
@@ -581,7 +572,7 @@ img {
 		width: 5%;
 	}
     .link_reseaux {
-        font-size: 0.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -589,7 +580,11 @@ img {
     .icons { 
 		width: 5%;
 	}
+    .texteContact {
+        font-size: 0.5rem;
+    }
 }
+
 
 
 
