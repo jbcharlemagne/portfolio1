@@ -43,16 +43,6 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width : 980px) {
-	h1 {
-        font-size: 2.5rem;
-    }
-    .fleches_nav {
-    width: 50px;
-    margin: 2%;
-    }
-}
-
 
 
     /* Header : Retour à l'index par jbc */
@@ -124,6 +114,7 @@ h3 {
 	}
     .textePresentation {
         font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -135,6 +126,7 @@ h3 {
 	} 
     .textePresentation {
         font-size: 0.4rem;
+        line-height: 0.5rem;
     }
 }
 
@@ -255,20 +247,23 @@ color: #F6F6F6;
 
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     ul { 
-		font-size: 3rem;
-        line-height: 1rem;
+		font-size: 4rem;
+        line-height: 4rem;
+
 	}
     .navlink:hover {
-        font-size: 4rem;  
+        font-size: 6rem;  
       }
 }
 
 @media only screen and (max-width: 400px) {
     ul {
         font-size: 1rem;
+        line-height: 1rem;
+
     }
       .navlink:hover {
-        font-size: 2rem;  
+        font-size: 1.5rem;  
       }
 }
 
@@ -357,7 +352,7 @@ img {
 
 .legendes_fontaines {
     transform: translateY(55px);
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 
 .tableaux {
@@ -580,8 +575,11 @@ img {
 		width: 5%;
 	}
     .link_reseaux {
+        font-size: 0.7rem;
+        line-height: 0.7rem;
+    }
+    .texteContact {
         font-size: 0.5rem;
-        line-height: 1rem;
     }
 }
 
@@ -589,8 +587,12 @@ img {
     .icons { 
 		width: 5%;
 	}
+    .link_reseaux {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
     .texteContact {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
