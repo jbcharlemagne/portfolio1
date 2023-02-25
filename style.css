@@ -223,9 +223,11 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-size: 5rem;
     text-align: center;
     line-height: 5rem;
+    padding: 0;
 }
 
 /* hover link */
@@ -270,6 +272,10 @@ color: #F6F6F6;
         font-size: 3.2rem;  
       }
 }
+
+
+
+
 
 
         /* PAGE AUTOPILOTE */
