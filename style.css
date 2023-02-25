@@ -33,16 +33,6 @@ h1 {
 }
 
 
-@media only screen and (max-width : 980px) {
-	h1 {
-        font-size: 2.5rem;
-    }
-    .fleches_nav {
-    width: 50px;
-    margin: 2%;
-    }
-}
-
 @media only screen and (max-width: 400px) { 
 	h1 {
         font-size: 0.7rem;
@@ -50,6 +40,16 @@ h1 {
     .fleches_nav {
     width: 20px;
     margin: 3%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width : 980px) {
+	h1 {
+        font-size: 2.5rem;
+    }
+    .fleches_nav {
+    width: 50px;
+    margin: 2%;
     }
 }
 
@@ -115,7 +115,7 @@ h3 {
     font-size: 1.5em;
 }
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     h2 {
         font-size: 3rem;
     }
@@ -184,7 +184,7 @@ h3 {
 }
 
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     .acceuil_titre { 
 		font-size: 4em;
 	}
@@ -253,16 +253,24 @@ color: #F6F6F6;
 }
 
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     ul { 
-		font-size: 5em;
-        line-height: 1em;
+		font-size: 3rem;
+        line-height: 1rem;
 	}
     .navlink:hover {
-        font-size: 6.5rem;  
+        font-size: 4rem;  
       }
 }
 
+@media only screen and (max-width: 400px) {
+    ul {
+        font-size: 1rem;
+    }
+      .navlink:hover {
+        font-size: 2rem;  
+      }
+}
 
         /* PAGE AUTOPILOTE */
 
@@ -406,7 +414,7 @@ img {
 }
 
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     .legendes { 
 		font-size: 0.5em;
     
@@ -549,39 +557,40 @@ img {
     text-decoration: underline;
   }
   
-  /* visited link */
-  .link_reseaux:visited {
+/* visited link */
+.link_reseaux:visited {
     color: #F0FFFF;
     text-decoration: none;
-  }
-  
-  /* mouse over link */
-  .link_reseaux:hover {
+    }
+
+/* mouse over link */
+.link_reseaux:hover {
     color: #F0FFFF;
     text-decoration: none;
-  }
-  
-  /* selected link */
-  .link_reseaux:active {
+    }
+
+/* selected link */
+.link_reseaux:active {
     color: #F0FFFF;
     text-decoration: none;
-  }
+    }
 
 @media only screen and (max-width: 400px) { 
 	.icons { 
 		width: 5%;
 	}
     .link_reseaux {
-        font-size: 1rem;
+        font-size: 0.5rem;
+        line-height: 1rem;
     }
 }
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     .icons { 
 		width: 5%;
 	}
     .texteContact {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -690,7 +699,7 @@ img {
     margin-bottom: 44%;
 }
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
     .p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7 , .p8 , .p9 { 
 		font-size: 0.5em;
 	}
@@ -725,7 +734,7 @@ img {
     color: #F6F6F6;
 }
 
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width: 400px) and (max-width : 980px) {
    .symboleCopyright { 
 		width: 20px;
         height: 20px;
