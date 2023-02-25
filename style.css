@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: #1B1C1E;
 }
     
@@ -32,15 +32,6 @@ h1 {
         margin: 1%;
 }
 
-@media only screen and (max-width: 400px) { 
-	h1 {
-        font-size: 0.1em;
-    }
-    .fleches_nav {
-    width: 30px;
-    margin: 3%;
-    }
-}
 
 @media only screen and (max-width : 980px) {
 	h1 {
@@ -51,6 +42,17 @@ h1 {
     margin: 2%;
     }
 }
+
+@media only screen and (max-width: 400px) { 
+	h1 {
+        font-size: 0.7rem;
+    }
+    .fleches_nav {
+    width: 20px;
+    margin: 3%;
+    }
+}
+
 
 
     /* Header : Retour à l'index par jbc */
@@ -88,7 +90,7 @@ h2 {
     margin-top: 10%;
     margin-bottom: 2%;
     padding: 0;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #F6F6F6;
     text-align: center;
 }
@@ -109,10 +111,31 @@ h2 {
 h3 {
     color: #F6F6F6;
     margin-left: 22%;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
+@media only screen and (max-width : 980px) {
+    h2 {
+        font-size: 3rem;
+    }
+    h3 { 
+		font-size: 1rem;
+	}
+    .textePresentation {
+        font-size: 0.9rem;
+    }
+}
 
+@media only screen and (max-width: 400px) { 
+	h2 {
+        font-size: 1rem;
+    }h3 { 
+		font-size: 0.5rem;
+	} 
+    .textePresentation {
+        font-size: 0.4rem;
+    }
+}
 
 
 
@@ -159,15 +182,16 @@ h3 {
     text-align: center;
 }
 
-@media only screen and (max-width: 400px) { 
-	.acceuil_titre { 
-		font-size: 1em;
-	}
-}
 
 @media only screen and (max-width : 980px) {
     .acceuil_titre { 
 		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 400px) { 
+	.acceuil_titre { 
+		font-size: 1em;
 	}
 }
 
@@ -227,27 +251,25 @@ ul {
 color: #F6F6F6;
 }
 
+@media only screen and (max-width : 980px) {
+    ul { 
+		font-size: 3em;
+        line-height: 1em;
+	}
+    .navlink:hover {
+        font-size: 4rem;  
+      }
+}
+
 @media only screen and (max-width: 400px) { 
 	ul { 
 		font-size: 1em;
         line-height: 1em;
 	}
     .navlink:hover {
-        font-size: 2rem;  
+        font-size: 1.5rem;  
       }
 }
-
-@media only screen and (max-width : 980px) {
-    ul { 
-		font-size: 2em;
-        line-height: 1em;
-	}
-    .navlink:hover {
-        font-size: 3rem;  
-      }
-}
-
-
 
 
 
@@ -338,6 +360,7 @@ img {
 
 .legendes_fontaines {
     transform: translateY(55px);
+    margin-bottom: 15%;
 }
 
 .tableaux {
@@ -394,6 +417,19 @@ img {
 }
 
 
+@media only screen and (max-width : 980px) {
+    .legendes { 
+		font-size: 0.5em;
+    
+	}
+}
+
+@media only screen and (max-width: 400px) { 
+	.legendes { 
+		font-size: 0.1em;
+    
+	}  
+}
 
 
 
@@ -628,7 +664,7 @@ img {
     grid-column: 3/3;
     grid-row: 4;
     font-size: 2em;
-    width: 70;
+    width: 70%;
 }
 
 .p6 {
@@ -661,7 +697,11 @@ img {
     margin-bottom: 44%;
 }
 
-
+@media only screen and (max-width : 980px) {
+    .p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7 , .p8 , .p9 { 
+		font-size: 0.5em;
+	}
+}
 
 @media only screen and (max-width: 400px) { 
 	.p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7, .p8 , .p9 { 
@@ -669,14 +709,6 @@ img {
 	}
    
 }
-
-@media only screen and (max-width : 980px) {
-    .p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7 , .p8 , .p9 { 
-		font-size: 0.5em;
-	}
-}
-
-
 
 
         /* FOOTER TOUTES LES PAGES */
@@ -700,3 +732,22 @@ img {
     color: #F6F6F6;
 }
 
+@media only screen and (max-width : 980px) {
+   .symboleCopyright { 
+		width: 20px;
+        height: 20px;
+	}
+    .JBC {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) { 
+	.symboleCopyright { 
+		width: 15px;
+        height: 15px;
+	}
+    .JBC_copyright {
+        font-size: 0.5rem;
+    }
+}
