@@ -35,10 +35,10 @@ h1 {
 
 @media only screen and (max-width : 980px) {
 	h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .fleches_nav {
-    width: 40px;
+    width: 50px;
     margin: 2%;
     }
 }
@@ -99,9 +99,10 @@ h2 {
     margin:0;
     padding: 0;
     font-size: 1rem;
+    line-height: 1.5rem;
     color: #F6F6F6;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 .textePresentation_fin {
@@ -185,13 +186,13 @@ h3 {
 
 @media only screen and (max-width : 980px) {
     .acceuil_titre { 
-		font-size: 2em;
+		font-size: 4em;
 	}
 }
 
 @media only screen and (max-width: 400px) { 
 	.acceuil_titre { 
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 }
 
@@ -253,11 +254,11 @@ color: #F6F6F6;
 
 @media only screen and (max-width : 980px) {
     ul { 
-		font-size: 3em;
+		font-size: 5em;
         line-height: 1em;
 	}
     .navlink:hover {
-        font-size: 4rem;  
+        font-size: 6.5rem;  
       }
 }
 
