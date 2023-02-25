@@ -33,15 +33,15 @@ h1 {
 }
 
 
-/* @media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 400px) { 
 	h1 {
-        font-size: 0.7rem;
+        font-size: 1.3rem;
     }
     .fleches_nav {
-    width: 20px;
+    width: 30px;
     margin: 3%;
     }
-} */
+}
 
 
 
@@ -120,13 +120,13 @@ h3 {
 
 @media only screen and (max-width: 400px) { 
 	h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }h3 { 
-		font-size: 0.5rem;
+		font-size: 1rem;
 	} 
     .textePresentation {
-        font-size: 0.4rem;
-        line-height: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 0.9rem;
     }
 }
 
@@ -182,12 +182,15 @@ h3 {
 	}
 }
 
-/* 
+
 @media only screen and (max-width: 400px) { 
 	.acceuil_titre { 
-		font-size: 1.5em;
+		font-size: 3rem;
 	}
-} */
+    .jpgCorner {
+        width: 70%;
+    }
+}
 
 
 
@@ -257,16 +260,17 @@ color: #F6F6F6;
       }
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     ul {
-        font-size: 1rem;
-        line-height: 1rem;
+        font-size: 2.7rem;
+        line-height: 2.5rem;
 
     }
       .navlink:hover {
-        font-size: 1.5rem;  
+        font-size: 3.2rem;  
       }
-} */
+}
+
 
         /* PAGE AUTOPILOTE */
 
@@ -412,14 +416,14 @@ img {
 
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     .legendes { 
-		font-size: 0.5em;
+		font-size: 0.7em;
     
 	}
 }
 
 @media only screen and (max-width: 400px) { 
 	.legendes { 
-		font-size: 0.1em;
+		font-size: 0.5em;
     
 	}  
 }
@@ -571,18 +575,20 @@ img {
     text-decoration: none;
     }
 
-/* @media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 400px) { 
 	.icons { 
-		width: 5%;
+		width: 7%;
+        margin: 3%;
 	}
     .link_reseaux {
-        font-size: 0.7rem;
-        line-height: 0.7rem;
+        font-size: 0.8rem;
     }
     .texteContact {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        padding: 10%;
     }
-} */
+}
 
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     .icons { 
@@ -743,16 +749,17 @@ img {
         height: 20px;
 	}
     .JBC {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 400px) { 
 	.symboleCopyright { 
-		width: 15px;
+        margin-left: 3%;
+        width: 15px;
         height: 15px;
 	}
     .JBC_copyright {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 }
