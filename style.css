@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #1B1C1E;
 }
     
@@ -35,7 +35,7 @@ h1 {
 
 @media only screen and (max-width : 980px) {
 	h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .fleches_nav {
     width: 50px;
@@ -252,16 +252,6 @@ ul {
 color: #F6F6F6;
 }
 
-@media only screen and (max-width : 980px) {
-    ul { 
-		font-size: 5em;
-        line-height: 1em;
-	}
-    .navlink:hover {
-        font-size: 6.5rem;  
-      }
-}
-
 @media only screen and (max-width: 400px) { 
 	ul { 
 		font-size: 1em;
@@ -272,8 +262,15 @@ color: #F6F6F6;
       }
 }
 
-
-
+@media only screen and (max-width : 980px) {
+    ul { 
+		font-size: 5em;
+        line-height: 1em;
+	}
+    .navlink:hover {
+        font-size: 6.5rem;  
+      }
+}
 
 
         /* PAGE AUTOPILOTE */
