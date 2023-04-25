@@ -232,7 +232,7 @@ h3 {
         font-size: 1.5em;
     }
     .track {
-         animation: marquee 10s linear infinite;
+         animation: marquee 10s;
     }
   }
 
@@ -764,13 +764,13 @@ img {
 
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     .p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7 , .p8 , .p9 , .p10 { 
-		font-size: 0.8em;
+		font-size: 0.6em;
 	}
 }
 
 @media only screen and (max-width: 400px) { 
 	.p1 , .p2 , .p3 , .p4 , .p5 , .p6 , .p7, .p8 , .p9 , .p10 { 
-		font-size: 0.8em;
+		font-size: 0.6em;
 	}
    
 }
