@@ -175,7 +175,6 @@ h3 {
     text-align: center;
 }
 
-
 @media only screen and (min-width: 400px) and (max-width : 980px) {
     .acceuil_titre { 
 		font-size: 4em;
@@ -404,7 +403,7 @@ img {
 
 .legendes_fontaines {
     transform: translateY(55px);
-    margin-bottom: 20%;
+    margin-bottom: 33%;
 }
 
 .tableaux {
