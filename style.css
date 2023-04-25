@@ -231,7 +231,7 @@ h3 {
         font-size: 1.5em;
     }
     .track {
-         animation: marquee 10s;
+         animation: marquee 10s linear infinite;
     }
   }
 
