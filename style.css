@@ -224,6 +224,18 @@ h3 {
     to { transform: translateX(-50%); }
   }
 
+  @media only screen and (max-width: 400px) {
+    .marquee {
+         height: 50px;
+    }
+    span {
+        font-size: 1.5em;
+    }
+    .track {
+         animation: marquee 10s linear infinite;
+    }
+  }
+
 
 
 
